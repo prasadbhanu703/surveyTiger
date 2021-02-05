@@ -5,7 +5,7 @@ export const responseSlice = createAsyncThunk(
   async (_, thunkAPI) => {
     const newSurveyId = String(thunkAPI.getState().surveys.length + 1);
     return newSurveyId;
-    console.log("checking receivers",newSurveyId)
+    // console.log("checking receivers",newSurveyId)
   }
 );
 

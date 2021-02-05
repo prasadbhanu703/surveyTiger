@@ -12,6 +12,7 @@ import ConfirmSurvey from "./components/confirm-survey";
 function App() {
   const dispatch = useDispatch();
   const history = useHistory();
+  console.log("checking");
 
   const redirectToNewSurvey = () => {
 

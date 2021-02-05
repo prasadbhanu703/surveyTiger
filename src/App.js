@@ -13,6 +13,7 @@ function App() {
   const dispatch = useDispatch();
   const history = useHistory();
   console.log("checking");
+  console.log("checking again");
 
   const redirectToNewSurvey = () => {
 
